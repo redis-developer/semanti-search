@@ -1,7 +1,7 @@
 {
     "app_name": "SemantiSearch",
     "description": "An information retrieval tool built on semantic search capabilities for large codebases and stackoverflow questions",
-    "hidden": "false",
+    "hidden": "true",
     "rank": "100",
     "type": "Full App",
     "contributed_by": "Community",
