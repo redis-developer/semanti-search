@@ -21,8 +21,7 @@
     "redis_commands": ["MODELRUN","MODELSET","MODELGET"],
     "redis_features": ["model-serving", "secondary-indexing"],
     "redis_modules": ["Redi cloud database", "RedisAI"],
-    "app_image_urls": [
-    "https://github.com/redis-developer/semanti-search/blob/main/resources/full-logo-no-bg.png"],
+    "app_image_urls": [],
     "youtube_url": "https://www.youtube.com/watch?v=AMfPUamwWzM",
     "special_tags": ["Hackathon"],
     "verticals": ["Technology"],
