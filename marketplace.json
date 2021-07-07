@@ -1,23 +1,30 @@
 {
     "app_name": "SemantiSearch",
     "description": "An information retrieval tool built on semantic search capabilities for large codebases and stackoverflow questions",
-    "hidden": "true",
-    "rank": "100",
+    "rank": "301",
     "type": "Full App",
     "contributed_by": "Community",
-    "repo_url": "https://github.com/naanunaane/semanti-search",
-    "download_url": "",
+    "repo_url": "https://github.com/redis-developer/semanti-search",
+    "download_url": "https://github.com/redis-developer/semanti-search/archive/refs/heads/main.zip",
     "hosted_url": "",
-    "quick_deploy": "",
-    "deploy_buttons": [],
+    "quick_deploy": "true",
+    "deploy_buttons": [
+    {
+      "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/semanti-search"
+    },
+   
+    {
+      "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/semanti-search"
+    }
+    ],
     "language": ["Python", "Flask", "RedisAI", "RediSearch"],
     "redis_commands": ["MODELRUN","MODELSET","MODELGET"],
     "redis_features": ["model-serving", "secondary-indexing"],
     "redis_modules": ["Redi cloud database", "RedisAI"],
     "app_image_urls": [
-    "https://github.com/naanunaane/semanti-search/blob/main/resources/full-logo-no-bg.png"],
-    "youtube_url": "https://youtu.be/AMfPUamwWzM",
+    "https://github.com/redis-developer/semanti-search/blob/main/resources/full-logo-no-bg.png"],
+    "youtube_url": "https://www.youtube.com/watch?v=AMfPUamwWzM",
     "special_tags": ["Hackathon"],
     "verticals": ["Technology"],
-    "markdown": "https://raw.githubusercontent.com/naanunaane/semanti-search/main/README.md"
+    "markdown": "https://raw.githubusercontent.com/redis-developer/semanti-search/main/README.md"
 }
